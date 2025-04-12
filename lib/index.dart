@@ -8,7 +8,7 @@ export '/s_pchitietbanhmi/s_pchitietbanhmi_widget.dart'
 export '/spchitiet_t_r_a_s_u_a/spchitiet_t_r_a_s_u_a_widget.dart'
     show SpchitietTRASUAWidget;
 export '/loginpage01/loginpage01_widget.dart' show Loginpage01Widget;
-export '/trangchualamove/trangchualamove_widget.dart'
+export '/pages/trangchualamove/trangchualamove_widget.dart'
     show TrangchualamoveWidget;
 export '/dinh_danh_tai_khoan/dinh_danh_tai_khoan_widget.dart'
     show DinhDanhTaiKhoanWidget;
@@ -21,3 +21,11 @@ export '/baitap18listview/baitap18listview_widget.dart'
     show Baitap18listviewWidget;
 export '/gridviewcount01/gridviewcount01_widget.dart'
     show Gridviewcount01Widget;
+export '/baitaplistview001/baitaplistview001_widget.dart'
+    show Baitaplistview001Widget;
+export '/fbhome/fbhome_widget.dart' show FbhomeWidget;
+export '/authentication/authentication_widget.dart' show AuthenticationWidget;
+export '/profile05/profile05_widget.dart' show Profile05Widget;
+export '/selfikhuonmat/selfikhuonmat_widget.dart' show SelfikhuonmatWidget;
+export '/xacnhanthongtin/xacnhanthongtin_widget.dart'
+    show XacnhanthongtinWidget;

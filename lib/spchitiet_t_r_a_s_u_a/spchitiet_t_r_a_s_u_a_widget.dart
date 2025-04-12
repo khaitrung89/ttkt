@@ -232,6 +232,7 @@ class _SpchitietTRASUAWidgetState extends State<SpchitietTRASUAWidget> {
                                                       .override(
                                                         fontFamily: 'Inter',
                                                         color: Colors.white,
+                                                        fontSize: 10.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
                                                             FontWeight.w600,

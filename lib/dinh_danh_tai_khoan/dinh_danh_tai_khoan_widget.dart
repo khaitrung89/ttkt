@@ -3,6 +3,7 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'dart:ui';
+import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -58,8 +59,8 @@ class _DinhDanhTaiKhoanWidgetState extends State<DinhDanhTaiKhoanWidget> {
               color: FlutterFlowTheme.of(context).primaryText,
               size: 24.0,
             ),
-            onPressed: () {
-              print('IconButton pressed ...');
+            onPressed: () async {
+              context.pushNamed(TrangchualamoveWidget.routeName);
             },
           ),
           title: Text(
@@ -611,8 +612,8 @@ class _DinhDanhTaiKhoanWidgetState extends State<DinhDanhTaiKhoanWidget> {
                     ),
                   ),
                   FFButtonWidget(
-                    onPressed: () {
-                      print('Button pressed ...');
+                    onPressed: () async {
+                      context.pushNamed(SelfikhuonmatWidget.routeName);
                     },
                     text: 'Tiếp tục',
                     options: FFButtonOptions(

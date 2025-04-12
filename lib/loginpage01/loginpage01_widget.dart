@@ -264,7 +264,7 @@ class _Loginpage01WidgetState extends State<Loginpage01Widget> {
                                 },
                                 text: 'Continue with Google',
                                 icon: Icon(
-                                  Icons.google,
+                                  Icons.school,
                                   size: 20.0,
                                 ),
                                 options: FFButtonOptions(

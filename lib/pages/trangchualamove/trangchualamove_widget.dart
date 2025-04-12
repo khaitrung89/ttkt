@@ -3,6 +3,7 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'dart:ui';
+import '/index.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -10,6 +11,7 @@ import 'package:provider/provider.dart';
 import 'trangchualamove_model.dart';
 export 'trangchualamove_model.dart';
 
+/// App Giao hang
 class TrangchualamoveWidget extends StatefulWidget {
   const TrangchualamoveWidget({super.key});
 
@@ -562,8 +564,8 @@ class _TrangchualamoveWidgetState extends State<TrangchualamoveWidget> {
                             color: FlutterFlowTheme.of(context).primary,
                             size: 24.0,
                           ),
-                          onPressed: () {
-                            print('IconButton pressed ...');
+                          onPressed: () async {
+                            context.pushNamed(DinhDanhTaiKhoanWidget.routeName);
                           },
                         ),
                       ],
